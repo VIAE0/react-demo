@@ -1,0 +1,43 @@
+.top-title{
+
+    height: 1rem;
+
+    width: 100%;
+
+    text-align: center;
+
+    font-size: .52rem;
+
+    background-color: #5b3929;
+
+    line-height: 1rem;
+
+    color: #fff;
+
+    letter-spacing: 2px;
+
+    position: fixed;
+
+    top:0;
+
+  }
+
+  .top-title  .icon-nav{
+
+    position: absolute;
+
+    left: .3rem;
+
+    font-size: .5rem;
+
+  }
+
+  .top-title  .icon-email{
+
+      position: absolute;
+
+      right: .3rem;
+
+      font-size: .5rem;
+
+  }

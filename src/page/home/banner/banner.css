@@ -1,0 +1,71 @@
+/* 图片轮播相框容器 */
+
+.frame{
+
+    position: absolute;
+
+    width: 10rem;
+
+    height: 4rem;
+
+    overflow: hidden;
+
+    top:1rem;
+
+}
+
+/* 绝对定位，方便让li图片的简介自动分布定位 */
+
+.dis{
+
+    display: inline-block;
+
+    left: -5rem;
+
+    top: -1rem;
+
+    opacity: 0.5;
+
+}
+
+.dis li{
+
+    display: inline-block;
+
+    width: 8rem;
+
+    height: 2rem;
+
+    margin: 0 1rem;
+
+    text-align: center;
+
+    color: #fff;
+
+}
+
+.photos {
+
+    position: absolute;
+
+    width: calc(10rem * 4);
+
+    z-index: 1;
+
+}
+
+.photos img{
+
+    float: left;
+
+    width: 10rem;
+
+    height: 4rem;
+
+}
+
+.play{
+
+    animation: ma 20s ease-out infinite
+
+}
