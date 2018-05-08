@@ -1,0 +1,79 @@
+.tab-footer{
+
+    position: fixed;
+
+    bottom: 0;
+
+    height: 1.4rem;
+
+    width: 100%;
+
+    border-top: 1px solid #ccc;
+
+}
+
+.tab-footer ul li{
+
+    height: 1.4rem;
+
+    width: 20%;
+
+    text-align: center;
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+}
+
+li i:first-child,
+
+li i:last-child{
+
+    width: 100%;
+
+    display: block;
+
+    color: #5b3929;
+
+}
+
+li i:first-child{
+
+    font-size: .6rem;
+
+    height: .7rem;
+
+    padding-top: .2rem
+
+}
+
+li i:last-child{
+
+    font-size: .32rem;
+
+    height: .5rem;
+
+    line-height: .5rem;
+
+}
+
+.tab-footer ul li .icon-jiashu{
+
+    height: 1.4rem;
+
+    width: 100%;
+
+    font-size: 1rem;
+
+    line-height: 1rem;
+
+    color: #5b3929;
+
+}
+
+.tab-footer ul li .icon-person{
+
+    padding-top: .1rem;
+
+}
